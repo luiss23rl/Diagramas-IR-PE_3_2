@@ -1,2 +1,2 @@
 # Diagramas-IR-PE_3_2
-Diagrams from draw.io as .png
+Se adjunta los diagramas desde "draw.io"
