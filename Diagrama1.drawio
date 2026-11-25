@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="s7TO3HuYc4EZGGQBkkWr">
-    <mxGraphModel>
+    <mxGraphModel dx="1046" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GRnjNsQRl2ZZKsMnSgVe-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Préstamos de equipos audiovisuales" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GRnjNsQRl2ZZKsMnSgVe-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Solicitantes" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GRnjNsQRl2ZZKsMnSgVe-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Responsable de mantenimiento" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GRnjNsQRl2ZZKsMnSgVe-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Servicios de notificaciones" vertex="1">
+          <mxGeometry height="80" width="120" x="640" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GRnjNsQRl2ZZKsMnSgVe-5" edge="1" parent="1" source="GRnjNsQRl2ZZKsMnSgVe-1" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=1;entryY=0.99;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="GRnjNsQRl2ZZKsMnSgVe-2" value="Disponibilidad y &lt;br&gt;Estado">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="313.5147186257616" y="233.51471862576125" as="sourcePoint" />
+            <mxPoint x="160" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRnjNsQRl2ZZKsMnSgVe-6" edge="1" parent="1" source="GRnjNsQRl2ZZKsMnSgVe-2" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="Consulta y solicitud">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="180" y="80" as="sourcePoint" />
+            <mxPoint x="333.5147186257616" y="203.51471862576125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRnjNsQRl2ZZKsMnSgVe-7" edge="1" parent="1" source="GRnjNsQRl2ZZKsMnSgVe-3" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="GRnjNsQRl2ZZKsMnSgVe-1" value="Estado de mantenimiento">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="210" y="230" as="sourcePoint" />
+            <mxPoint x="300" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRnjNsQRl2ZZKsMnSgVe-8" edge="1" parent="1" source="GRnjNsQRl2ZZKsMnSgVe-1" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="GRnjNsQRl2ZZKsMnSgVe-4" value="Aviso de estado">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="440" y="300" as="sourcePoint" />
+            <mxPoint x="520" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRnjNsQRl2ZZKsMnSgVe-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Solicitantes" vertex="1">
+          <mxGeometry height="80" width="120" x="640" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GRnjNsQRl2ZZKsMnSgVe-10" edge="1" parent="1" source="GRnjNsQRl2ZZKsMnSgVe-1" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="GRnjNsQRl2ZZKsMnSgVe-9" value="Solicitudes&amp;nbsp;&lt;div&gt;pendientes&lt;div&gt;y datos&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="489.99528137423863" y="233.51471862576147" as="sourcePoint" />
+            <mxPoint x="653.51" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRnjNsQRl2ZZKsMnSgVe-11" edge="1" parent="1" source="GRnjNsQRl2ZZKsMnSgVe-9" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" target="GRnjNsQRl2ZZKsMnSgVe-1" value="Decisión, devolución&lt;div&gt;e inspección&lt;/div&gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="590" y="130" as="sourcePoint" />
+            <mxPoint x="753.5147186257616" y="223.51471862576125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
